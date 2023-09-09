@@ -6,7 +6,7 @@ BetterEventEmitter is a custom event emitter with types and more functions.
 
 ## Installation
 
-<code> npm i better-event-emitter </code>
+<code>npm i better-event-emitter</code>
 
 ## Usage
 
@@ -102,7 +102,7 @@ emitter.on('eventName1', eventHandler);
 emitter.removeListener('eventName1', eventHandler);
 ```
 
-#### `removeGlobalListener ` method
+#### `removeGlobalListener` method
 
 You can remove a global event listener (registered using `onAny`) using the `removeGlobalListener` method. Provide the callback function:
 
